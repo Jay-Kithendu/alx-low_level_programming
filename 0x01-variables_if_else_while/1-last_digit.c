@@ -5,16 +5,12 @@
 #include <stdio.h>
 
 /**
- * main - Program Entry point
- *
- *
- * Description: A program to determine wether an int is +ve, -ve or 0
- *
- *
- *
- * Return: 0 indicates success
- *
- */
+* main - Program Entry point
+*
+* Description: A program to determine wether an int is +ve, -ve or zero
+*
+* Return: 0 indicates success
+*/
 
 
 int main(void)
