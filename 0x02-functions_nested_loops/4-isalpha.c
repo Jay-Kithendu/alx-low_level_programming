@@ -8,8 +8,6 @@
 
 int _isalpha(int c)
 {
-	char c;
-
 	if (c == [a-zA-Z])
 	{
 
