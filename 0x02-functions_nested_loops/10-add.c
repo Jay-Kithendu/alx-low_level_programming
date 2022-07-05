@@ -6,7 +6,7 @@
   * Return: add success
   */
 
-int add(int, int)
+int add(int x, int y)
 {
 
 	int add = 0;
