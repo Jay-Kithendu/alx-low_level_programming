@@ -2,12 +2,12 @@
 
 /**
   * print_last_digit - function that prints the last digit of a number
-  *@c: integer input
+  *@k: integer input
   *
   * Return: The last digit success
   */
 
-int print_last_digit(int c)
+int print_last_digit(int k)
 {
 
 	int last;
