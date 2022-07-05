@@ -6,7 +6,7 @@
   *Return: 1 for its a letter and 0 for otherwise
   */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	char c;
 
