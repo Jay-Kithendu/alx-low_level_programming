@@ -3,29 +3,26 @@
 /**
   * print_alphabet_x10 - print the alphabet 10 times lc
   *
-  * return 0 if successful
+  * return void if successful
   */
 
 void print_alphabet_x10(void)
 {
 	char c;
-	int i;
+	int i = 0;
 
-	for ( i = 'a' ; i =< 'z' ; i++)
+	while ( i <= 10 )
 	{
-
-		-putchar(c);
-		int j=0;
-
-		while ( j <= 10 )
+		for ( i = 'a' ; i =< 'z' ; i++)
 		{
-			_putchar('\n);
-			j++;
+
+			-putchar(c);
 		}
 
-
+		_putchar('\n);
+		
+		i++;
 	}
-
-return 0;
+return (void);
 
 }
