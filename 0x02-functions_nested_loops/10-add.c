@@ -9,10 +9,10 @@
 int add(int, int)
 {
 
-	int sum = 0;
+	int add = 0;
 	int x, y;
 
-	sum = x + y;
-	return (sum);
+	add = x + y;
+	return (add);
 
 }
