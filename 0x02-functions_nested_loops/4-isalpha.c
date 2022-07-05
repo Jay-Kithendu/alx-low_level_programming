@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
-  *_isalpha to check if it's a letter
+  *_isalpha - to check for it's alphabetic character
+  *
+  * @c: the haracter to be checked
   *
   *Return: 1 for its a letter and 0 for otherwise
   */
