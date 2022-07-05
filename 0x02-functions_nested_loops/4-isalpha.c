@@ -8,7 +8,7 @@
 
 int _isalpha(int c)
 {
-	if (c == [a-zA-Z])
+	for ((c >= 'a' ; c <= 'z') || (c >= 'A' ; c <= 'Z'))
 	{
 
 		return (1);
