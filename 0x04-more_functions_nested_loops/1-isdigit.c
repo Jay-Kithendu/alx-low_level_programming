@@ -3,8 +3,8 @@
 /**
   * _isdigit - checks if its a digit
   * @c: integer
-  * @x: refrence
-  *Return: 1 for digit or 0 for otherwise
+  *
+  * Return: 1 for digit or 0 for otherwise
   */
 
 int _isdigit(int c)
