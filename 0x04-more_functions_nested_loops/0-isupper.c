@@ -7,7 +7,7 @@
   *Return: 1 for success or 0 for otherwise
   */
 
-int _isupper(int 
+int _isupper(int x) 
 {
 	if ((x >= 'A') && (x <= 'Z'))
 	{
