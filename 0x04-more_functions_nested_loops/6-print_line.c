@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
-  * print_line - function that draws a straight line in the terminal
+  *print_line - function that draws a diagonal line
+  *@n: number of lines
   *
   */
 
 void print_line(int n)
 {
-	int x, y;
+	int x;
 
 	if (n <= 0)
 	{
@@ -17,12 +18,11 @@ void print_line(int n)
 	{
 		for (x = 0; x < n; x++)
 		{
-			for (y = 0; y < x; y++)
-			{
-				_putchar(32);
-			}
-		_putchar(92);
-		_putchar('\n');
+			_putchar(95);
 		}
+
+		_putchar('\n');
 	}
+
 }
+
