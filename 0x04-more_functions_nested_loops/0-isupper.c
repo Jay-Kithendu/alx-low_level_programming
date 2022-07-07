@@ -7,9 +7,9 @@
   *Return: 1 for success or 0 for otherwise
   */
 
-int _isupper(int c) 
+int _isupper(int x)
 {
-	if ((c >= 'A') && (c <= 'Z'))
+	if (x >= 65 && x <= 90)
 	{
 		return (1);
 	}
