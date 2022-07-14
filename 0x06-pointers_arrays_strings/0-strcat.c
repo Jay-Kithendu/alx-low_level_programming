@@ -2,13 +2,13 @@
 
 /**
   * *_strcat - concatenates two strings
-  * @*dest: destination
-  * @*src: source
+  * @dest: destination
+  * @src: source
   *
   * Return: A pointer to the dest
   */
 
-  char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int dlen = 0, i;
 
