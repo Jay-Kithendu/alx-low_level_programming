@@ -10,17 +10,5 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int sum;
-
-	if (argc < 1)
-	{
-		sum = 0;
-	}
-	else
-	{
-		sum += 1;
-	}
-	printf("%d\n", sum);
-	return (0);
+	printf("%d\n", argc -1);
 }
