@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-  * isInt - check if its an int
+  * isInteger - check if its an int
   * @s: string to check
   *
   * Return: 0 or 1
   */
 
-int isInt(const char *s)
+int isInteger(const char *s)
 {
 	int i = 0;
 
@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
 
 	while (--argc)
 	{
-		if (isInt(argv[argc]))
+		if (isInteger(argv[argc]))
 		{
 			print("Error\n");
 			return (1);

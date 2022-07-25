@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]);
-int isInt(const char *s);
+int isInteger(const char *s);
 int main(int argc, char const *argv[]);  
 
 #endif
