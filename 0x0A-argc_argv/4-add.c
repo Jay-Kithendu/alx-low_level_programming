@@ -39,7 +39,7 @@ int main(int argc, char const *argv[])
 			print("Error\n");
 			return (1);
 		}
-		sum += atoi(argv[i]);
+		sum += atoi(argv[argc]);
 	}
 	printf("%d\n", sum);
 	return (0);
