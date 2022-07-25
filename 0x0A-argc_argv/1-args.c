@@ -11,8 +11,10 @@
 int main(int argc, char *argv[])
 {
 	int i;
+	int sum;
 
-	for (i = 1; i < argc; i++)
-		printf("%d\n", argc);
+	if (argc > 1)
+		sum += 1;
+	printf("%d\n", sum);
 	return (0);
 }
