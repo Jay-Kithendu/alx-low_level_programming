@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define END '\0'
+#define BYTE 8
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
