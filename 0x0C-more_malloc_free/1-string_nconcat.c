@@ -21,7 +21,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s1[i])
 		i++;
 	i++;
-	comb = malloc (sizeof(*comb) * (i + n));
+	comb = malloc(sizeof(*comb) * (i + n));
 	if (comb == NULL)
 		return (NULL);
 	i = 0;
@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	for (j = 0; j < n && s2[j] != '\0'; j++)
 	{
-		com[i] = s2[j];
+		comb[i] = s2[j];
 		i++;
 	}
 	comb[i] = '\0';
